@@ -110,6 +110,7 @@ extern "C" _declspec(dllexport) char* __stdcall sslGetKey();
 extern "C" _declspec(dllexport) void __stdcall sslSetCert(char*);
 extern "C" _declspec(dllexport) void __stdcall sslSetKey(char*);
 extern "C" _declspec(dllexport) void __stdcall SetUpstreamGatewayTo(char*);
+extern "C" _declspec(dllexport) void __stdcall SetUpstreamProxyServer(const char*);
 extern "C" _declspec(dllexport) void __stdcall UpdateConfig(int);
 extern "C" _declspec(dllexport) void __stdcall customCertificate(char*);
 
